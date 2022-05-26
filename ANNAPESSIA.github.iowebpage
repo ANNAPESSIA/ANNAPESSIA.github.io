@@ -5,13 +5,7 @@
   <title>web design dga1020</title>
   <h1>🧊Global Warming it's here!🧊</h1>
   <ol>
-body {
-  font-family: system-ui;
-  background: #59bfff;
-  color: white;
-  text-align: center;
-}
-document.getElementsByTagName("h1")[0].style.fontSize = "6vw";
+
 
 <body>
   The Arctic is warming about twice as fast as the global average, causing the ice that polar bears depend on to melt away. Loss of sea ice also threatens the bear's main prey, seals, which need the ice to raise their young.
