@@ -1,0 +1,45 @@
+
+h1 {
+    color: blue;
+    font-family: Arial, sans-serif;
+}
+
+
+body > p {
+    font-style: italic;
+}
+
+
+p.hello {
+    font-weight: bold;
+}
+
+
+p#special {
+    color: green;
+}
+
+
+h2 {
+    background-color: yellow;
+}
+
+
+div ul {
+    list-style-type: circle;
+}
+
+
+li input[type="checkbox"]:checked {
+    text-decoration: line-through;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+
+input[type="text"], input[type="password"] {
+    border: 1px solid black;
+}
