@@ -1,0 +1,94 @@
+body {
+    border: 20px #bdc7cf solid; 
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 700px; 
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto; 
+}
+
+h2 {
+    color: #354b63; 
+}
+
+.date { 
+    color: #3098dd;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    /* rem here takes the default font-size from the root element, in this 
+        case body, so the result of 0.2rem here is 3.2px since the default is 16px; */
+}
+
+.quote {
+    border-left: 5px solid #bdc7cf;
+    padding-left: 5px;
+}
+
+/* style of hr taken from - https://css-tricks.com/examples/hrs/ */
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 25px 0;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="blog.css">
+    <title>Blog</title>
+</head>
+
+<body>
+    <div class="post">
+        <div class="date">November 20 2018</div>
+        <h2>First Blog Post</h2>
+        <p class="quote">On the warm afternoon of August 20, 2016, a small coastal town named Willowbrook came alive with whispers of an extraordinary
+event that would be talked about for years to come. The townsfolk were abuzz with excitement as they gathered near the ancient lighthouse overlooking the sea. 
+Legend had it that on this particular day every century, a mystical portal would open, allowing glimpses into other realms. As the clock struck midnight, a dazzling
+spectacle unfolded before their eyes. The night sky was ablaze with colors unseen, and ethereal beings danced among the stars. For a fleeting moment, the barriers between
+worlds dissolved, leaving the townspeople in awe of the magical display. Little did they know that this enchanting night would leave an indelible mark on their hearts, inspiring 
+generations with tales of wonder and sparking the imagination of storytellers for years to come.</p>
+        <p>On August 20, 2016, in the quaint town of Everwood, a remarkable story unfolded. Sarah, a young botanist, discovered a forgotten journal hidden in the attic of her
+ancestral home. The journal belonged to her great-grandmother, Isabella, a renowned herbalist in her time. As Sarah delved into its pages, she unraveled the secrets of a rare 
+and mythical flower, said to possess extraordinary healing powers. Driven by her passion for botany and a desire to honor her family's legacy, Sarah embarked on an incredible journey
+to find this elusive bloom. Little did she know that her quest would lead her to unexpected adventures, lifelong friendships, and a deeper connection to her family's roots. The story 
+of Sarah's botanical adventure on that fateful August day became an enduring tale of love, determination, and the timeless magic of nature.</p>
+        <p>In the quaint town of Willowbrook, nestled between rolling hills and a glistening river, there was a mysterious old bookstore that appeared only at midnight on the eve of the
+full moon. One curious night, a young girl named Lily stumbled upon the mystical shop and found a dusty, leather-bound book titled "The Secrets of Stardust." Little did she know that this
+book held the key to unlocking a forgotten realm of magic. As she delved deeper into its pages, she discovered a hidden world where stars were sentient beings, guiding lost souls and granting 
+wishes. With newfound courage, Lily embarked on a magical adventure, unraveling ancient secrets and facing extraordinary challenges, all while discovering her own inner strength. Little did she 
+know that her journey would not only change her life but also the fate of Willowbrook and the enchanted world beyond.</p>
+    </div>
+    <hr>
+    <div class="post">
+        <div class="date">August 20 2016</div>
+        <h2>Second Blog Post</h2>
+        <p class="quote">In the quaint town of Willowbrook, nestled between rolling hills and a glistening river, there was a mysterious 
+old bookstore that appeared only at midnight on the eve of the full moon. One curious night, a young girl named Lily stumbled upon the mystical 
+shop and found a dusty, leather-bound book titled "The Secrets of Stardust." Little did she know that this book held the key to unlocking a forgotten
+realm of magic. As she delved deeper into its pages, she discovered a hidden world where stars were sentient beings, guiding lost souls and granting wishes.
+With newfound courage, Lily embarked on a magical adventure, unraveling ancient secrets and facing extraordinary challenges, all while discovering her own inner strength.
+Little did she know that her journey would not only change her life but also the fate of Willowbrook and the enchanted world beyond.</p>
+        <p>On the warm afternoon of August 20, 2016, a small coastal town named Willowbrook came alive with whispers of an extraordinary
+event that would be talked about for years to come. The townsfolk were abuzz with excitement as they gathered near the ancient lighthouse overlooking the sea. 
+Legend had it that on this particular day every century, a mystical portal would open, allowing glimpses into other realms. As the clock struck midnight, a dazzling
+spectacle unfolded before their eyes. The night sky was ablaze with colors unseen, and ethereal beings danced among the stars. For a fleeting moment, the barriers between
+worlds dissolved, leaving the townspeople in awe of the magical display. Little did they know that this enchanting night would leave an indelible mark on their hearts, inspiring 
+generations with tales of wonder and sparking the imagination of storytellers for years to come.</p>
+        <p>On the warm afternoon of August 20, 2016, a small coastal town named Willowbrook came alive with whispers of an extraordinary
+event that would be talked about for years to come. The townsfolk were abuzz with excitement as they gathered near the ancient lighthouse overlooking the sea. 
+Legend had it that on this particular day every century, a mystical portal would open, allowing glimpses into other realms. As the clock struck midnight, a dazzling
+spectacle unfolded before their eyes. The night sky was ablaze with colors unseen, and ethereal beings danced among the stars. For a fleeting moment, the barriers between
+worlds dissolved, leaving the townspeople in awe of the magical display. Little did they know that this enchanting night would leave an indelible mark on their hearts, inspiring 
+generations with tales of wonder and sparking the imagination of storytellers for years to come.</p>
+    </div>
+</body>
+
+</html>
